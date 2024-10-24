@@ -19,7 +19,7 @@ function sendMessage()
     const chatBody = document.getElementById('chatBody');
     chatBody.scrollTop = chatBody.scrollHeight;
 
-    fetch('https://study-abroad-65soekajo-faazs-projects-4e0379c7.vercel.app/api/generate', {
+    fetch('http://localhost:study-abroad-65soekajo-faazs-projects-4e0379c7.vercel.app/api/generate', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
